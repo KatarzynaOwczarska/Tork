@@ -1,0 +1,400 @@
+@CHARSET "UTF-8";
+
+.container-fluid {
+	padding: 0px 0px 0px 0px;
+}
+
+.row {
+	margin: 0px 0px 0px 0px;
+}
+
+header {
+	height: 70px;
+	background-color: transparent;
+  	background-color: rgba(25, 28, 36, 0.5);  /* FF3+, Saf3+, Opera 10.10+, Chrome, IE9 */
+  	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#3332FA32,endColorstr=#3332FA32); /* IE6&#8211;IE9 */
+  	zoom: 1;
+  	width: 100%;
+}
+
+#search {
+	background-color: rgb(45,60,66);
+	margin-top: 1em;
+	border-radius: 50px;
+	text-indent: 10px;
+	height: 30px;
+	width: 200px;
+	border: none;
+}
+
+#buy-it {
+	border-radius: 50px;
+	width: 60px;
+	height: 30px;
+	background-color: rgb(131,95,168);
+	color: white;
+	border: none;
+	margin-left: 1.5em;
+}
+
+#nav {
+	color: white;
+	margin-left: 0.5em;
+	margin-top: 0.5em;
+}
+
+#zegarek {
+	background-color: rgb(25,28,36);
+	background-image: url("../zegarek.png");
+	background-size: 60% 120%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding-right: 0px;
+    padding-left: 0px;
+}
+
+#telefon {
+	position: absolute;
+	top: 90%;
+}
+
+#naglowek {
+	color: white;
+	font-size: 5em;
+	font-weight: 100;
+	margin-top: 2em;
+}
+
+#napis {
+	color: white;
+	font-size: 1.3em;
+	margin-right: 5em;
+	margin-bottom:5em;
+}
+
+#napis2 {
+	color: white;
+	font-size: 1.3em;
+	margin-bottom:3em;
+}
+
+#fiolet {
+	background-color: rgb(131,95,168);
+}
+
+#super-truper {
+	color: white;
+	margin-top: 2em;
+	font-size: 3em;
+}
+
+#super {
+	margin-bottom: 9.5em;
+}
+
+#przycisk {
+	border-radius: 50px;
+	background-color: rgb(59,211,186);
+	border: none;
+	padding: 8px 40px;
+	color: white;
+	font-size: 1.5em;
+	margin-bottom: 2em;
+	transition-duration:0.5s;
+}
+
+#przycisk:hover {
+	background-color: rgb(0,188,212);
+}
+
+#trzy-kolumny {
+	background-color: rgb(244,248,251);
+}
+
+#design-features {
+	color: rgb(86,86,86);
+	margin-top: 3em;
+	font-size: 2em;
+	
+}
+
+#design-features-p {
+	color: rgb(126,126,126);
+	font-size: 1.5em;
+	font-weight: 100;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#miedzy-liniami {
+	line-height: 200%;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+#czarny {
+	background-color: rgb(35,40,49);
+}
+
+
+#for-humans {
+	color: white;
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: center;
+	margin-top: 2.5em;
+}
+
+#wysrodkowany {
+	color: rgb(157,165,176);
+	text-align: center;
+	font-size: 1.1em;
+	line-height: 200%;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      margin: auto;
+      margin-top: 1%;
+}
+
+#szary {
+	background-color: rgb(43,48,59);
+}
+
+#szary h3 {
+	color:rgb(51,77,96);
+}
+
+#span-kolor {
+	color: white;
+}
+
+#napis-szary {
+	line-height: 200%;
+	color: rgb(157,165,176);
+}
+
+#margines {
+	margin-bottom: 5em;
+	margin-top: 1.7em;
+}
+
+#ikonka {
+	color: rgb(55,156,136);
+}
+
+#szary-jasny {
+	background-color: rgb(233,238,241);
+}
+
+#napis-zegarek {
+	color: rgb(117,122,134);
+	font-size: 1.2em;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	line-height: 200%;	
+}
+
+#napis-zegarek-maly {
+	line-height: 200%;
+}
+
+#conectivity {
+	margin-left: 0.5em;
+	margin-top: 2.5em;
+}
+
+#filmik {
+	height: 700px;
+	background-color: rgb(244,248,251);
+}
+
+#padding-telefon {
+	padding: 0px 0px 0px 0px;
+}
+
+#zegarek-czysty {
+	padding: 0px 0px 0px 0px;
+}
+
+#obok-filmu {
+	background-color: rgb(131,95,168);
+	height: 400px;
+	padding: 0px 0px 0px 0px;
+}
+
+#data {
+	margin-top: 5em;
+	color: white;
+	font-style: italic;
+}
+
+#lorem-ipsum {
+	color: white;
+	font-style: italic;
+	font-size: 2em;
+	font-weight: 100;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#komentarze {
+	background-color: white;
+}
+
+#komentarze h2 {
+	font-size: 1.5em;
+	margin-top: 2em;
+}
+
+#komentarze p {
+	margin-top: 1.5em;
+	margin-bottom: 8em;
+	color: rgb(131,150,162);
+}
+
+#telefony {
+	background-image: url("../telefony.jpg");
+	background-repeat: no-repeat;
+	height: 43%;
+}
+
+#reka {
+	background-color: black;
+	background-image: url("../dlugopis.png");
+	background-size: 100% 120%;
+	background-repeat: no-repeat;
+}
+
+#reka div {
+	background-color: rgb(131,95,168);
+	height: 400px;
+	opacity: 0.8;
+}
+
+
+#reka p {
+	font-size: 2em;
+	font-style: italic;
+	color: white;
+	margin-top: 4em;
+	margin-left: 2em;
+}
+
+#stopka {
+	background-color: rgb(38,50,56);
+	color: white;
+}
+
+#margines {
+	margin-top: 5em;
+	margin-bottom: 0px;
+}
+
+#margines-ikonki {
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+
+#linki {
+	margin-bottom: 2em;
+}
+
+#linki p {
+	font-weight: bold;
+	font-size: 13px;
+}
+
+#linki a {
+	color: white;
+	font-size: 12px;
+	line-height: 200%;
+}
+
+#linki a:hover {
+	text-decoration: none;
+	cursor: pointer;	
+}
+
+#pole {
+	border: none;
+	color: black;
+	background-color: rgb(246,247,250);
+	text-indent: 10px;
+	width: 25em;
+	height: 5em;
+}
+
+#pole:focus {
+	color: black;
+}
+
+#submit {
+	border: none;
+	width: 5em;
+	background-color: rgb(131,95,168);
+	color: white;
+}
+
+#pod-polem {
+	margin-top: 1.5em;
+	line-height: 200%;
+}
+
+#podpis {
+	background-color: rgb(23,29,32);
+	color: white;
+}
+
+#footer {
+	margin: 10px 0px 0px 0px;
+	text-align: center;
+}
+
+#odstep-d {
+	height: 500px;
+	background-color: grey;
+	
+}
+
+.ukryj{
+	opacity:0
+}
+ 
+.show {
+	opacity: 1;
+}
+
+#serduszko {
+	color: red;
+}
+
+#kasia {
+	color: rgb(131,95,168);
+}
+
+@media only screen and (max-width: 991px) {
+	#super {
+		text-align: center;
+		
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	#super-truper {
+		margin-top: 2.5em;
+		
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	#naglowek {
+		margin-top: 0.5em;
+		
+	}
+	
+	#zegarek {
+		background-size: 100% 120%;
+	}
+	
+	#obrazek {
+		width: 100%;
+	}
+}

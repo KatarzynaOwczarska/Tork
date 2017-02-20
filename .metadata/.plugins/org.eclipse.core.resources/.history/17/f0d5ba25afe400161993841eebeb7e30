@@ -1,0 +1,14 @@
+@CHARSET "UTF-8";
+
+#header {
+	background-color: rgb(25,28,36);
+	background-image: url("../zegarek.png");
+	background-size: 80% 120%;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+header {
+	opacity: 0.5;
+	background-color: rgb(25,28,36);
+}
